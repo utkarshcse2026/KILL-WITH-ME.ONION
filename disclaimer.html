@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="selectors.css">
+
+
+    <style>
+        /* Added CSS for layout */
+        #hit1, #hit2, #hit3 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+        }
+        #hit1 img, #hit2 img, #hit3 img {
+            max-width: 100%;
+            height: auto;
+            position: relative;
+        }
+        .image-overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+
+        /* Media query for smaller screens */
+        @media only screen and (max-width: 600px) {
+            #hit1, #hit2, #hit3 {
+                flex-direction: column;
+            }
+        }
+    </style>
+    <title>KILL-WITH-ME</title>
+</head>
+<body>
+    <center>    
+        <section>
+            <h1>FAST AND SECURE TRANSACTION</h1>
+            <div id="heading" style="background-color: bisque;">
+                <p>PAYMENTS ONLY IN BITCOIN AND ADMIN METHOD</p>
+            </div>
+            <h2>KILL-WITH-ME .ONION</h2>
+            <div id="headline">
+                <pre>HOLA MUCHO GUSTO LA VISOTRE</pre>
+            </div>
+            <h3>DISCLAIMER </h3>
+              
+
+            <br>
+
+            <div id="hit2" style="position: relative;">
+                <img src="devilish.jpg" alt="">
+                <div class="image-overlay">
+                    <b>
+                        <p>This website is for entertainment purposes only. It is not a real webpage and should not be taken seriously. We want to emphasize that this site is a spoof and is not meant to deceive or harm anyone. We have created it purely for fun and amusement. Please be aware that no harm is intended to any individual or entity through the content presented on this website. Enjoy browsing, but remember, it's all in good fun!</p>
+                    <p> - Lucifer :)</p>
+                    </b> 
+                </div>
+            </div>
+
+        </section>
+    </center>
+</body>
+</html>
